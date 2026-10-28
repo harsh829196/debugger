@@ -1,0 +1,5 @@
+services:
+  debugger:
+    build: .
+    volumes:
+      - ./src:/app/src
